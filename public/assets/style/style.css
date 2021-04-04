@@ -43,12 +43,12 @@ h2{
     font-weight: 400;
 }
 
-a{
+.button {
    color: var(--green);
    text-decoration: none;
 }
 
-a:hover{
+.button:hover{
     color:var(--lite-green);
 }
 
@@ -266,6 +266,11 @@ footer{
     padding: 4rem 0 2rem;
     color: var(--color-dark-blue);
     opacity: 0.6;
+}
+
+footer a{
+    color: var(--color-dark-blue);
+    text-decoration: none;
 }
 
 @media (min-width: 800px){
