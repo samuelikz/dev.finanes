@@ -17,7 +17,6 @@ html{
 body{
     background: #f0f2f5;
     font-family: 'Poppins', sans-serif;
-    width: 70%;
 }
 
 .sr-only {
@@ -253,5 +252,9 @@ footer a{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+    }
+    .container{
+        margin: auto;
+        width: 70%;
     }
 }
